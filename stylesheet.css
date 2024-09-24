@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+nav{
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px 420px;
+
+}
+
+nav ul img{
+ max-width: 50px ;
+ max-height: 50px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    flex-direction: column;
+    font-size: 50px;
+    list-style:none;
+    margin:40px;
+    font-size: 15px;
+    margin: 15px;
+    font-weight: 1000;
+   
+}
+ 
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.icons{
+   margin: 15px 195px;
+   
+   
+}
+.icons2{
+   margin: 15px -190px;
+   
+}
+
+button{
+   background-color: #6b5eff;
+   margin:15px 200px;
+   color: #ffffff;
+   height:auto;
+   width:auto;
+   padding
+   
+}
+
+.container{
+    width: 1500px;
+    height: 5000px;
+    margin: 00px 400px 400px 400px;
+}
+
+.box{
+margin: 15px 0px 15px 15px;
+height:500px;
+width: 700px;
+float: left;
+
+}
+
+.box2{
+    margin-top:15px;
+    background-image:none , linear-gradient(-45deg,#8FC9F9,#6F6AFF);
+    height: 500px;
+    width:300px;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.box img{
+    height: 500px;
+    width: 700px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.gameloop{
+    margin:15px;
+    background-color: rgb(107, 94, 255 , 0.4);
+    height: 100px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+#gl img{
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.cod{
+    margin:15px;
+    background-color: rgb(105, 92, 255 , 0.4);
+    height: 100px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+#cod img{
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.pubg{
+    margin:15px;
+    background-color: rgb(107, 94, 255 , 0.4);
+    height: 100px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+#pubg img{
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.ff{
+    margin:15px;
+    background-color: hsl(245, 100%, 68% , 0.4);
+    height: 100px;
+    width: 275px;
+    border-radius: 10px;
+
+}
+
+#ff img{
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.appsbox{
+    margin: 15px;
+    height: 300px;
+    width: 1000px;
+    background-color: hsl(0, 40%, 18%);
+    position: relative;
+    top: 555px;
+    flex-direction: row;
+}
+
+#app1{
+    margin: 15px;
+    background-color: #6F6AFF;
+    height: 90px;
+    width: 250px;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
